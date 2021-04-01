@@ -1,5 +1,6 @@
 console.log("Caramba");
 console.log(1+1);
 
-const soma = require('./calculadora');
-soma(10, 40);
+const calcular = require('./calculadora');
+console.log(calcular().soma(2, 20));
+console.log(calcular().subtrair(10, 4));
