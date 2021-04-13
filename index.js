@@ -12,7 +12,7 @@ const usuarios = [
 ]
 
 //METODO UM
-resultado = usuarios.filter(estado => estado.isActive = true)
+resultado = usuarios.filter(estado => estado.isActive == true)
 console.log(resultado)
 
 //METODO DOIS
